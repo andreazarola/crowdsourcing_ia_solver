@@ -1,0 +1,14 @@
+../Instances/test-C2-A-P2-1000.json
+../Instances/test-C2-A-P4-1000.json
+../Instances/test-C2-A-P6-1000.json
+../Instances/test-C2-B-P2-1002.json
+../Instances/test-C2-B-P4-1002.json
+../Instances/test-C2-C-P2-1008.json
+../Instances/test-C2-C-P4-1008.json
+../Instances/test-C3-A-P1-1008.json
+../Instances/test-C3-A-P2-1008.json
+../Instances/test-C3-A-P4-1008.json
+../Instances/test-C3-B-P1-1008.json
+../Instances/test-C3-B-P2-1008.json
+../Instances/test-C3-B-P4-1008.json
+

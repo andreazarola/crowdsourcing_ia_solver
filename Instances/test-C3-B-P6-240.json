@@ -1,0 +1,7178 @@
+{
+  "id": "test-C3-B-P6-240",
+  "min_item_repetitions": 5,
+  "min_item_quality_level": 200,
+  "categories": [
+    {
+      "id": "C1",
+      "levels": [
+        "L1-1",
+        "L1-2",
+        "L1-3",
+        "L1-4",
+        "L1-5",
+        "L1-6"
+      ],
+      "worker_assignments": 2
+    },
+    {
+      "id": "C2",
+      "levels": [
+        "L2-1",
+        "L2-2",
+        "L2-3",
+        "L2-4"
+      ],
+      "worker_assignments": 3
+    },
+    {
+      "id": "C3",
+      "levels": [
+        "L3-1",
+        "L3-2"
+      ],
+      "worker_assignments": 6
+    }
+  ],
+  "properties": [
+    {
+      "id": "P1",
+      "levels": [
+        "l1-1",
+        "l1-2"
+      ],
+      "item_assignments": 1
+    },
+    {
+      "id": "P2",
+      "levels": [
+        "l2-1",
+        "l2-2"
+      ],
+      "item_assignments": 1
+    },
+    {
+      "id": "P3",
+      "levels": [
+        "l3-1",
+        "l3-2",
+        "l3-3"
+      ],
+      "item_assignments": 1
+    },
+    {
+      "id": "P4",
+      "levels": [
+        "l4-1",
+        "l4-2",
+        "l4-3"
+      ],
+      "item_assignments": 1
+    },
+    {
+      "id": "P5",
+      "levels": [
+        "l5-1",
+        "l5-2",
+        "l5-3",
+        "l5-4"
+      ],
+      "item_assignments": 1
+    },
+    {
+      "id": "P6",
+      "levels": [
+        "l6-1",
+        "l6-2",
+        "l6-3",
+        "l6-4",
+        "l6-5"
+      ],
+      "item_assignments": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "I0",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I1",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I4",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I5",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I6",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I7",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I8",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I9",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I10",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I11",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I12",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I13",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I14",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I15",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I16",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I17",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I18",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I19",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I20",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I21",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I22",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I23",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I24",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I25",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I26",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I27",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I28",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I29",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I30",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I31",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I32",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I33",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I34",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I35",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I36",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I37",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I38",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I39",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I40",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I41",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I42",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I43",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I44",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I45",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I46",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I47",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I48",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I49",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I50",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I51",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I52",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I53",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I54",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I55",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I56",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I57",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I58",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I59",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I60",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I61",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I62",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I63",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I64",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I65",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I66",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I67",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I68",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I69",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I70",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I71",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I72",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I73",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I74",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I75",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I76",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I77",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I78",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I79",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I80",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I81",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I82",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I83",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I84",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I85",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I86",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I87",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I88",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I89",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I90",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I91",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I92",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I93",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I94",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I95",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I96",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I97",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I98",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I99",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I100",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I101",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I102",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I103",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I104",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I105",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I106",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I107",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I108",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I109",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I110",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I111",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I112",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I113",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I114",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I115",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I116",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I117",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I118",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I119",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I120",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I121",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I122",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I123",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I124",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I125",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I126",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I127",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I128",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I129",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I130",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I131",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I132",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I133",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I134",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I135",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I136",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I137",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I138",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I139",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I140",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I141",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I142",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I143",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I144",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I145",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I146",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I147",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I148",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I149",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I150",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I151",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I152",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I153",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I154",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I155",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I156",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I157",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I158",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I159",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I160",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I161",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I162",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I163",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I164",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I165",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I166",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I167",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I168",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I169",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I170",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I171",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I172",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I173",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I174",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I175",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I176",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I177",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I178",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I179",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I180",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I181",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I182",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I183",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I184",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I185",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I186",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I187",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I188",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I189",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I190",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I191",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I192",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I193",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I194",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I195",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I196",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I197",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I198",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I199",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-1"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I200",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I201",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I202",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I203",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I204",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I205",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I206",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I207",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-2"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I208",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I209",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I210",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I211",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I212",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I213",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I214",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I215",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-3"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I216",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I217",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I218",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I219",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I220",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I221",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I222",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I223",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-4"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I224",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I225",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I226",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I227",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I228",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I229",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I230",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I231",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-5"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I232",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I233",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-1"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I234",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I235",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-2"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I236",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I237",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-3"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    },
+    {
+      "id": "I238",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-1"
+        }
+      ]
+    },
+    {
+      "id": "I239",
+      "categories": [
+        {
+          "id": "C1",
+          "level": "L1-6"
+        },
+        {
+          "id": "C2",
+          "level": "L2-4"
+        },
+        {
+          "id": "C3",
+          "level": "L3-2"
+        }
+      ]
+    }
+  ],
+  "workers": [
+    {
+      "id": "W0",
+      "expertise": 39,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "expertise": 24,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "expertise": 72,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "expertise": 88,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "expertise": 100,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "expertise": 87,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "expertise": 95,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W7",
+      "expertise": 29,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W8",
+      "expertise": 97,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W9",
+      "expertise": 88,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W10",
+      "expertise": 71,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W11",
+      "expertise": 58,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W12",
+      "expertise": 100,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W13",
+      "expertise": 45,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W14",
+      "expertise": 87,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W15",
+      "expertise": 33,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W16",
+      "expertise": 80,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W17",
+      "expertise": 77,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W18",
+      "expertise": 31,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W19",
+      "expertise": 100,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W20",
+      "expertise": 11,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W21",
+      "expertise": 17,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W22",
+      "expertise": 7,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W23",
+      "expertise": 43,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W24",
+      "expertise": 18,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W25",
+      "expertise": 49,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W26",
+      "expertise": 95,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W27",
+      "expertise": 22,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W28",
+      "expertise": 23,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W29",
+      "expertise": 75,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W30",
+      "expertise": 35,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W31",
+      "expertise": 56,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W32",
+      "expertise": 32,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W33",
+      "expertise": 38,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W34",
+      "expertise": 9,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W35",
+      "expertise": 8,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W36",
+      "expertise": 0,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W37",
+      "expertise": 69,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W38",
+      "expertise": 89,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W39",
+      "expertise": 20,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W40",
+      "expertise": 59,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W41",
+      "expertise": 1,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W42",
+      "expertise": 32,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W43",
+      "expertise": 91,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W44",
+      "expertise": 51,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W45",
+      "expertise": 63,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W46",
+      "expertise": 83,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W47",
+      "expertise": 44,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W48",
+      "expertise": 14,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W49",
+      "expertise": 93,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W50",
+      "expertise": 12,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W51",
+      "expertise": 39,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W52",
+      "expertise": 72,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W53",
+      "expertise": 49,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W54",
+      "expertise": 0,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W55",
+      "expertise": 65,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W56",
+      "expertise": 74,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W57",
+      "expertise": 45,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W58",
+      "expertise": 43,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W59",
+      "expertise": 67,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W60",
+      "expertise": 89,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W61",
+      "expertise": 81,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W62",
+      "expertise": 51,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W63",
+      "expertise": 43,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W64",
+      "expertise": 46,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W65",
+      "expertise": 82,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W66",
+      "expertise": 81,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W67",
+      "expertise": 17,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W68",
+      "expertise": 81,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W69",
+      "expertise": 73,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W70",
+      "expertise": 44,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W71",
+      "expertise": 54,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W72",
+      "expertise": 81,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W73",
+      "expertise": 96,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W74",
+      "expertise": 14,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W75",
+      "expertise": 2,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W76",
+      "expertise": 71,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W77",
+      "expertise": 57,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W78",
+      "expertise": 58,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W79",
+      "expertise": 75,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W80",
+      "expertise": 18,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W81",
+      "expertise": 88,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W82",
+      "expertise": 69,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W83",
+      "expertise": 92,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W84",
+      "expertise": 48,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W85",
+      "expertise": 89,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W86",
+      "expertise": 83,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-2"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W87",
+      "expertise": 89,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W88",
+      "expertise": 65,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W89",
+      "expertise": 66,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W90",
+      "expertise": 9,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-1"
+        }
+      ]
+    },
+    {
+      "id": "W91",
+      "expertise": 83,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W92",
+      "expertise": 45,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W93",
+      "expertise": 57,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W94",
+      "expertise": 72,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-3"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    },
+    {
+      "id": "W95",
+      "expertise": 25,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-1"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-5"
+        }
+      ]
+    },
+    {
+      "id": "W96",
+      "expertise": 96,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-4"
+        }
+      ]
+    },
+    {
+      "id": "W97",
+      "expertise": 93,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-1"
+        },
+        {
+          "id": "P3",
+          "level": "l3-1"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-1"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W98",
+      "expertise": 65,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-2"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-3"
+        },
+        {
+          "id": "P4",
+          "level": "l4-3"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-2"
+        }
+      ]
+    },
+    {
+      "id": "W99",
+      "expertise": 34,
+      "properties": [
+        {
+          "id": "P1",
+          "level": "l1-1"
+        },
+        {
+          "id": "P2",
+          "level": "l2-2"
+        },
+        {
+          "id": "P3",
+          "level": "l3-2"
+        },
+        {
+          "id": "P4",
+          "level": "l4-2"
+        },
+        {
+          "id": "P5",
+          "level": "l5-4"
+        },
+        {
+          "id": "P6",
+          "level": "l6-3"
+        }
+      ]
+    }
+  ]
+}

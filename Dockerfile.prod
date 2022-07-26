@@ -1,0 +1,36 @@
+FROM alpine:3.13 AS builder
+
+LABEL description="Build container - item assignment production"
+
+RUN apk update && apk add --no-cache \
+    build-base cmake gcc g++ boost-dev curl-dev
+
+ARG build_type=Release
+
+
+# copy C++ source code and compile it (only the needed one)
+COPY ./InputData /item-assignment/InputData
+COPY ./LocalSearch /item-assignment/LocalSearch
+COPY ./easylocal-3 /item-assignment/easylocal-3
+COPY CMakeLists.txt /item-assignment
+WORKDIR /item-assignment/build
+RUN echo "Building with type $build_type"
+RUN cmake -DCMAKE_BUILD_TYPE=$build_type .. && make -j && make install && echo "Compilation completed"
+
+FROM alpine:3.13 as runtime
+
+LABEL description="Run container - sp debug"
+
+RUN apk update && apk add --no-cache \ 
+    libstdc++ boost libcurl
+
+COPY --from=builder /item-assignment/bin /item-assignment/bin
+WORKDIR /item-assignment/bin
+
+
+# expose the app port
+EXPOSE 18080
+
+# run the app server
+#ENTRYPOINT ["./IA_Solver", "--main::method", "rest", "--REST::authorization", "a3d6319e-917d-11eb-a8b3-0242ac130003"]
+ENTRYPOINT ["./IA_solver", "--main::method", "rest"]

@@ -1,0 +1,71 @@
+{
+    "type": "and",
+    "descendants": [
+        {
+            "type": "file",
+            "name": "main::instance",
+            "path": "../Instances/S-M2.txt",
+            "match": ".*\\.json"
+        },
+        {
+            "type": "discrete",
+            "name": "main::method",
+            "values": [
+                "BSA"
+            ]
+        },
+        {
+            "type": "continuous",
+            "name": "BSA::neighbors_accepted_ratio",
+            "values": { "min": 0.1, "max": 0.2 }
+        },
+        {
+            "type": "discrete",
+            "name": "BSA::max_evaluations",
+            "values": [ 100000000 ]
+        },
+        {
+            "type": "discrete",
+            "name": "BSA::cooling_rate",
+            "values": [
+                0.99
+            ]
+        },
+        {
+            "type": "continuous",
+            "name": "BSA::start_temperature",
+            "values": { "min": 250, "max": 750 }
+        },
+        {
+            "type": "discrete",
+            "name": "main::hard_weight",
+            "values": [2]
+        },
+        {
+            "type": "continuous",
+            "name": "BSA::expected_min_temperature",
+            "values": { "min": 0.1, "max": 1.0 }
+        }
+    ],
+    "postprocessors": [
+        {
+            "type": "hammersley",
+            "points": 30
+        },
+        {       
+             "type": "rounding",
+             "match": "BSA::start_temperature",
+             "decimal_digits": 2
+        },
+        {       
+             "type": "rounding",
+             "match": "BSA::expected_min_temperature",
+             "decimal_digits": 2
+        },
+        {       
+             "type": "rounding",
+             "match": "BSA::neighbors_accepted_ratio",
+             "decimal_digits": 2
+        }
+    ]
+}

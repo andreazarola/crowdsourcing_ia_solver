@@ -1,0 +1,52 @@
+{
+    "type": "and",
+    "descendants": [
+        {
+           "type": "file",
+            "name": "main::instance",
+            "path": "../Instances/L.txt",
+            "match": ".*\\.json"
+        },
+        {
+            "type": "discrete",
+            "name": "main::method",
+            "values": [
+                "BSA"
+            ]
+        },
+        {
+            "type": "discrete",
+            "name": "BSA::neighbors_accepted_ratio",
+            "values": [
+                0.1
+            ]
+        },
+	{
+            "type": "discrete", 
+            "name": "main::hard_weight",
+	    "values": [ 2 ]
+         },
+        {
+            "type": "discrete",
+            "name": "BSA::max_evaluations",
+            "values": [ 50000000 ]
+        },
+        {
+            "type": "discrete",
+            "name": "BSA::cooling_rate",
+            "values": [
+                0.99
+            ]
+        },
+        {
+            "type": "discrete",
+            "name": "BSA::start_temperature",
+            "values": [10]
+        },
+        {
+            "type": "discrete",
+            "name": "BSA::expected_min_temperature",
+            "values": [0.24]
+        }
+    ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "toy",
+  "min_item_repetitions": 3,
+  "min_item_quality_level": 120,
+  "categories": [
+    {
+      "id": "relevance",
+      "levels": [
+        "not_relevant",
+        "marginally_relevant",
+        "relevant",
+        "highly_relevant"
+      ],
+      "worker_assignments": 1
+    },
+    {
+      "id": "political_orientation",
+      "levels": [
+        "democratic",
+        "republican"
+      ],
+      "worker_assignments": 2
+    }
+  ],
+  "properties": [
+    {
+      "id": "gender",
+      "levels": [
+        "male",
+        "female"
+      ],
+      "item_assignments": 1
+    },
+    {
+      "id": "political_orientation",
+      "levels": [
+        "democratic",
+        "republican"
+      ],
+      "item_assignments": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "I0",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "not_relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "I1",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "not_relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "marginally_relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "marginally_relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "I4",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "I5",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "I6",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "highly_relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "I7",
+      "categories": [
+        {
+          "id": "relevance",
+          "level": "highly_relevant"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+    }
+  ],
+  "workers": [
+    {
+      "id": "W0",
+      "expertise": 56,
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "expertise": 9,
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "expertise": 84,
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "expertise": 45,
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "expertise": 82,
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "expertise": 53,
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+    },
+      {
+      "id": "W6",
+      "expertise": 20,
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation",
+          "level": "republican"
+        }
+      ]
+      }
+  ]
+}

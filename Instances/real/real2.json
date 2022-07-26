@@ -1,0 +1,4208 @@
+{
+  "id": "toy",
+  "min_item_repetitions": 10,
+  "categories": [
+    {
+      "id": "relevance_politifact",
+      "levels": [
+        "rel_politifact_1",
+        "rel_politifact_2",
+        "rel_politifact_3",
+        "rel_politifact_4",
+        "rel_politifact_5",
+        "rel_politifact_6"
+      ],
+      "worker_assignments": 1
+    },
+    {
+      "id": "political_orientation_politifact",
+      "levels": [
+        "democratic",
+        "republican"
+      ],
+      "worker_assignments": 3
+    }
+  ],
+  "properties": [
+    {
+      "id": "gender",
+      "levels": [
+        "male",
+        "female"
+      ],
+      "item_assignments": 1
+    },
+    {
+      "id": "political_orientation_worker",
+      "levels": [
+        "democratic",
+        "republican"
+      ],
+      "item_assignments": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "Item_0",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_1",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_2",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_3",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_4",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_5",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_6",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_7",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_8",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_9",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_10",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_11",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_12",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_13",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_14",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_15",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_16",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_17",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_18",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_19",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_1"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_20",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_21",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_22",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_23",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_24",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_25",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_26",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_27",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_28",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_29",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_30",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_31",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_32",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_33",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_34",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_35",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_36",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_37",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_38",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_39",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_2"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_40",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_41",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_42",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_43",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_44",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_45",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_46",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_47",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_48",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_49",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_50",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_51",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_52",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_53",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_54",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_55",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_56",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_57",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_58",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_59",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_3"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_60",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_61",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_62",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_63",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_64",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_65",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_66",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_67",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_68",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_69",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_70",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_71",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_72",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_73",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_74",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_75",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_76",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_77",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_78",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_79",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_4"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_80",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_81",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_82",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_83",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_84",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_85",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_86",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_87",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_88",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_89",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_90",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_91",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_92",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_93",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_94",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_95",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_96",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_97",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_98",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_99",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_5"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_100",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_101",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_102",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_103",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_104",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_105",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_106",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_107",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_108",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_109",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_110",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_111",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_112",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_113",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_114",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_115",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_116",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_117",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Item_118",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Item_119",
+      "categories": [
+        {
+          "id": "relevance_politifact",
+          "level": "rel_politifact_6"
+        },
+        {
+          "id": "political_orientation_politifact",
+          "level": "republican"
+        }
+      ]
+    }
+  ],
+  "workers": [
+    {
+      "id": "Worker_0",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_1",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_2",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_3",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_4",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_5",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_6",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_7",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_8",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_9",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_10",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_11",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_12",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_13",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_14",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_15",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_16",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_17",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_18",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_19",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_20",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_21",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_22",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_23",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_24",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_25",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_26",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_27",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_28",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_29",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_30",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_31",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_32",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_33",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_34",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_35",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_36",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_37",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_38",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_39",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_40",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_41",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_42",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_43",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_44",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_45",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_46",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_47",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_48",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_49",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_50",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_51",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_52",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_53",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_54",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_55",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_56",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_57",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_58",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_59",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_60",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_61",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_62",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_63",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_64",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_65",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_66",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_67",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_68",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_69",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_70",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_71",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_72",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_73",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_74",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_75",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_76",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_77",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_78",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_79",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_80",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_81",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_82",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_83",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_84",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_85",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_86",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_87",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_88",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_89",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_90",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_91",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_92",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_93",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_94",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_95",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_96",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_97",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_98",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_99",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "male"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_100",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_101",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_102",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_103",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_104",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_105",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_106",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_107",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_108",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_109",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_110",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_111",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_112",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_113",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_114",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_115",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_116",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_117",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_118",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_119",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_120",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_121",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_122",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_123",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_124",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_125",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_126",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_127",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_128",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_129",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_130",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_131",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_132",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_133",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_134",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_135",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_136",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_137",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_138",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_139",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_140",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_141",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_142",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_143",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_144",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_145",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_146",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_147",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_148",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_149",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_150",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_151",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_152",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_153",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_154",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_155",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_156",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_157",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_158",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_159",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_160",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_161",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_162",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_163",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_164",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_165",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_166",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_167",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_168",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_169",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_170",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_171",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_172",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_173",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_174",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_175",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_176",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_177",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_178",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_179",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_180",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_181",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_182",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_183",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_184",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_185",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_186",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_187",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_188",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_189",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_190",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_191",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_192",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_193",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_194",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_195",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_196",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_197",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    },
+    {
+      "id": "Worker_198",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "Worker_199",
+      "properties": [
+        {
+          "id": "gender",
+          "level": "female"
+        },
+        {
+          "id": "political_orientation_worker",
+          "level": "republican"
+        }
+      ]
+    }
+  ]
+}

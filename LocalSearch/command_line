@@ -1,0 +1,1 @@
+./IA_solver --main::instance ../Instances/test-C1-P1-102.json --main::method BSA --BSA::neighbors_accepted_ratio 0.19 --main::hard_weight 100000 --BSA::max_evaluations 100000000 --BSA::cooling_rate 0.99 --BSA::start_temperature 1765.63 --BSA::expected_min_temperature 0.11
