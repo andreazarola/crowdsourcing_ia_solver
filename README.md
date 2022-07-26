@@ -1,9 +1,9 @@
 # Item assignment solver for crowdsourcing tasks
 
-This repository contains the solver used for the advanced laboratory done for the course of Web Information Retrieval.
+This repository contains the solver that has been used for the advanced laboratory within the course of Web Information Retrieval.
 
 The solver allows to solve input instances about an item assignment optimization problem during the creation of crowdsourcing tasks. 
-The Docker compose file inside the repository allows to deploy both the solver and also a reverse proxy, based on nginx, that forward incoming requests to the solver.
+The Docker compose file inside the repository allows to deploy both the solver and also a reverse proxy, based on nginx, that forwards incoming requests to the solver.
 
 ## How to deploy the solver
 To deploy the solver run the following commands on the terminal:
